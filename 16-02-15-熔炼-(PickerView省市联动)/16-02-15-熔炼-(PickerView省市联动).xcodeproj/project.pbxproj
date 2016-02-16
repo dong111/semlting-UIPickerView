@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BB278211C7379AB00D6478F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB278201C7379AB00D6478F /* main.m */; };
+		2BB278241C7379AB00D6478F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB278231C7379AB00D6478F /* AppDelegate.m */; };
+		2BB278271C7379AB00D6478F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB278261C7379AB00D6478F /* ViewController.m */; };
+		2BB2782A1C7379AB00D6478F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BB278281C7379AB00D6478F /* Main.storyboard */; };
+		2BB2782D1C7379AB00D6478F /* _6_02_15_____PickerView_____.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2BB2782B1C7379AB00D6478F /* _6_02_15_____PickerView_____.xcdatamodeld */; };
+		2BB2782F1C7379AB00D6478F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BB2782E1C7379AB00D6478F /* Assets.xcassets */; };
+		2BB278321C7379AB00D6478F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BB278301C7379AB00D6478F /* LaunchScreen.storyboard */; };
+		2BB2783D1C7379AB00D6478F /* _6_02_15_____PickerView_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB2783C1C7379AB00D6478F /* _6_02_15_____PickerView_____Tests.m */; };
+		2BB278481C7379AB00D6478F /* _6_02_15_____PickerView_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB278471C7379AB00D6478F /* _6_02_15_____PickerView_____UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BB278391C7379AB00D6478F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BB278141C7379AB00D6478F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BB2781B1C7379AB00D6478F;
+			remoteInfo = "16-02-15-熔炼-(PickerView省市联动)";
+		};
+		2BB278441C7379AB00D6478F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BB278141C7379AB00D6478F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BB2781B1C7379AB00D6478F;
+			remoteInfo = "16-02-15-熔炼-(PickerView省市联动)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BB2781C1C7379AB00D6478F /* 16-02-15-熔炼-(PickerView省市联动).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "16-02-15-熔炼-(PickerView省市联动).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB278201C7379AB00D6478F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BB278221C7379AB00D6478F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2BB278231C7379AB00D6478F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2BB278251C7379AB00D6478F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2BB278261C7379AB00D6478F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2BB278291C7379AB00D6478F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BB2782C1C7379AB00D6478F /* _6_02_15_____PickerView_____.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "_6_02_15_____PickerView_____.xcdatamodel"; sourceTree = "<group>"; };
+		2BB2782E1C7379AB00D6478F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BB278311C7379AB00D6478F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BB278331C7379AB00D6478F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BB278381C7379AB00D6478F /* 16-02-15-熔炼-(PickerView省市联动)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "16-02-15-熔炼-(PickerView省市联动)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB2783C1C7379AB00D6478F /* _6_02_15_____PickerView_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_6_02_15_____PickerView_____Tests.m"; sourceTree = "<group>"; };
+		2BB2783E1C7379AB00D6478F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BB278431C7379AB00D6478F /* 16-02-15-熔炼-(PickerView省市联动)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "16-02-15-熔炼-(PickerView省市联动)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB278471C7379AB00D6478F /* _6_02_15_____PickerView_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_6_02_15_____PickerView_____UITests.m"; sourceTree = "<group>"; };
+		2BB278491C7379AB00D6478F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BB278191C7379AB00D6478F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB278351C7379AB00D6478F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB278401C7379AB00D6478F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BB278131C7379AB00D6478F = {
+			isa = PBXGroup;
+			children = (
+				2BB2781E1C7379AB00D6478F /* 16-02-15-熔炼-(PickerView省市联动) */,
+				2BB2783B1C7379AB00D6478F /* 16-02-15-熔炼-(PickerView省市联动)Tests */,
+				2BB278461C7379AB00D6478F /* 16-02-15-熔炼-(PickerView省市联动)UITests */,
+				2BB2781D1C7379AB00D6478F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BB2781D1C7379AB00D6478F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BB2781C1C7379AB00D6478F /* 16-02-15-熔炼-(PickerView省市联动).app */,
+				2BB278381C7379AB00D6478F /* 16-02-15-熔炼-(PickerView省市联动)Tests.xctest */,
+				2BB278431C7379AB00D6478F /* 16-02-15-熔炼-(PickerView省市联动)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BB2781E1C7379AB00D6478F /* 16-02-15-熔炼-(PickerView省市联动) */ = {
+			isa = PBXGroup;
+			children = (
+				2BB278221C7379AB00D6478F /* AppDelegate.h */,
+				2BB278231C7379AB00D6478F /* AppDelegate.m */,
+				2BB278251C7379AB00D6478F /* ViewController.h */,
+				2BB278261C7379AB00D6478F /* ViewController.m */,
+				2BB278281C7379AB00D6478F /* Main.storyboard */,
+				2BB2782E1C7379AB00D6478F /* Assets.xcassets */,
+				2BB278301C7379AB00D6478F /* LaunchScreen.storyboard */,
+				2BB278331C7379AB00D6478F /* Info.plist */,
+				2BB2782B1C7379AB00D6478F /* _6_02_15_____PickerView_____.xcdatamodeld */,
+				2BB2781F1C7379AB00D6478F /* Supporting Files */,
+			);
+			path = "16-02-15-熔炼-(PickerView省市联动)";
+			sourceTree = "<group>";
+		};
+		2BB2781F1C7379AB00D6478F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BB278201C7379AB00D6478F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2BB2783B1C7379AB00D6478F /* 16-02-15-熔炼-(PickerView省市联动)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2BB2783C1C7379AB00D6478F /* _6_02_15_____PickerView_____Tests.m */,
+				2BB2783E1C7379AB00D6478F /* Info.plist */,
+			);
+			path = "16-02-15-熔炼-(PickerView省市联动)Tests";
+			sourceTree = "<group>";
+		};
+		2BB278461C7379AB00D6478F /* 16-02-15-熔炼-(PickerView省市联动)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				2BB278471C7379AB00D6478F /* _6_02_15_____PickerView_____UITests.m */,
+				2BB278491C7379AB00D6478F /* Info.plist */,
+			);
+			path = "16-02-15-熔炼-(PickerView省市联动)UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BB2781B1C7379AB00D6478F /* 16-02-15-熔炼-(PickerView省市联动) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BB2784C1C7379AB00D6478F /* Build configuration list for PBXNativeTarget "16-02-15-熔炼-(PickerView省市联动)" */;
+			buildPhases = (
+				2BB278181C7379AB00D6478F /* Sources */,
+				2BB278191C7379AB00D6478F /* Frameworks */,
+				2BB2781A1C7379AB00D6478F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "16-02-15-熔炼-(PickerView省市联动)";
+			productName = "16-02-15-熔炼-(PickerView省市联动)";
+			productReference = 2BB2781C1C7379AB00D6478F /* 16-02-15-熔炼-(PickerView省市联动).app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BB278371C7379AB00D6478F /* 16-02-15-熔炼-(PickerView省市联动)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BB2784F1C7379AB00D6478F /* Build configuration list for PBXNativeTarget "16-02-15-熔炼-(PickerView省市联动)Tests" */;
+			buildPhases = (
+				2BB278341C7379AB00D6478F /* Sources */,
+				2BB278351C7379AB00D6478F /* Frameworks */,
+				2BB278361C7379AB00D6478F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BB2783A1C7379AB00D6478F /* PBXTargetDependency */,
+			);
+			name = "16-02-15-熔炼-(PickerView省市联动)Tests";
+			productName = "16-02-15-熔炼-(PickerView省市联动)Tests";
+			productReference = 2BB278381C7379AB00D6478F /* 16-02-15-熔炼-(PickerView省市联动)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2BB278421C7379AB00D6478F /* 16-02-15-熔炼-(PickerView省市联动)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BB278521C7379AB00D6478F /* Build configuration list for PBXNativeTarget "16-02-15-熔炼-(PickerView省市联动)UITests" */;
+			buildPhases = (
+				2BB2783F1C7379AB00D6478F /* Sources */,
+				2BB278401C7379AB00D6478F /* Frameworks */,
+				2BB278411C7379AB00D6478F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BB278451C7379AB00D6478F /* PBXTargetDependency */,
+			);
+			name = "16-02-15-熔炼-(PickerView省市联动)UITests";
+			productName = "16-02-15-熔炼-(PickerView省市联动)UITests";
+			productReference = 2BB278431C7379AB00D6478F /* 16-02-15-熔炼-(PickerView省市联动)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BB278141C7379AB00D6478F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = man;
+				TargetAttributes = {
+					2BB2781B1C7379AB00D6478F = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					2BB278371C7379AB00D6478F = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 2BB2781B1C7379AB00D6478F;
+					};
+					2BB278421C7379AB00D6478F = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 2BB2781B1C7379AB00D6478F;
+					};
+				};
+			};
+			buildConfigurationList = 2BB278171C7379AB00D6478F /* Build configuration list for PBXProject "16-02-15-熔炼-(PickerView省市联动)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BB278131C7379AB00D6478F;
+			productRefGroup = 2BB2781D1C7379AB00D6478F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BB2781B1C7379AB00D6478F /* 16-02-15-熔炼-(PickerView省市联动) */,
+				2BB278371C7379AB00D6478F /* 16-02-15-熔炼-(PickerView省市联动)Tests */,
+				2BB278421C7379AB00D6478F /* 16-02-15-熔炼-(PickerView省市联动)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BB2781A1C7379AB00D6478F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB278321C7379AB00D6478F /* LaunchScreen.storyboard in Resources */,
+				2BB2782F1C7379AB00D6478F /* Assets.xcassets in Resources */,
+				2BB2782A1C7379AB00D6478F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB278361C7379AB00D6478F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB278411C7379AB00D6478F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BB278181C7379AB00D6478F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB278271C7379AB00D6478F /* ViewController.m in Sources */,
+				2BB278241C7379AB00D6478F /* AppDelegate.m in Sources */,
+				2BB278211C7379AB00D6478F /* main.m in Sources */,
+				2BB2782D1C7379AB00D6478F /* _6_02_15_____PickerView_____.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB278341C7379AB00D6478F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB2783D1C7379AB00D6478F /* _6_02_15_____PickerView_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB2783F1C7379AB00D6478F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB278481C7379AB00D6478F /* _6_02_15_____PickerView_____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BB2783A1C7379AB00D6478F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BB2781B1C7379AB00D6478F /* 16-02-15-熔炼-(PickerView省市联动) */;
+			targetProxy = 2BB278391C7379AB00D6478F /* PBXContainerItemProxy */;
+		};
+		2BB278451C7379AB00D6478F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BB2781B1C7379AB00D6478F /* 16-02-15-熔炼-(PickerView省市联动) */;
+			targetProxy = 2BB278441C7379AB00D6478F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BB278281C7379AB00D6478F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BB278291C7379AB00D6478F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2BB278301C7379AB00D6478F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BB278311C7379AB00D6478F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BB2784A1C7379AB00D6478F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BB2784B1C7379AB00D6478F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BB2784D1C7379AB00D6478F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "16-02-15-熔炼-(PickerView省市联动)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cdmq.-6-02-15-----PickerView-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2BB2784E1C7379AB00D6478F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "16-02-15-熔炼-(PickerView省市联动)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cdmq.-6-02-15-----PickerView-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2BB278501C7379AB00D6478F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "16-02-15-熔炼-(PickerView省市联动)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cdmq.-6-02-15-----PickerView-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/16-02-15-熔炼-(PickerView省市联动).app/16-02-15-熔炼-(PickerView省市联动)";
+			};
+			name = Debug;
+		};
+		2BB278511C7379AB00D6478F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "16-02-15-熔炼-(PickerView省市联动)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cdmq.-6-02-15-----PickerView-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/16-02-15-熔炼-(PickerView省市联动).app/16-02-15-熔炼-(PickerView省市联动)";
+			};
+			name = Release;
+		};
+		2BB278531C7379AB00D6478F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "16-02-15-熔炼-(PickerView省市联动)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cdmq.-6-02-15-----PickerView-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "16-02-15-熔炼-(PickerView省市联动)";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2BB278541C7379AB00D6478F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "16-02-15-熔炼-(PickerView省市联动)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cdmq.-6-02-15-----PickerView-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "16-02-15-熔炼-(PickerView省市联动)";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BB278171C7379AB00D6478F /* Build configuration list for PBXProject "16-02-15-熔炼-(PickerView省市联动)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB2784A1C7379AB00D6478F /* Debug */,
+				2BB2784B1C7379AB00D6478F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BB2784C1C7379AB00D6478F /* Build configuration list for PBXNativeTarget "16-02-15-熔炼-(PickerView省市联动)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB2784D1C7379AB00D6478F /* Debug */,
+				2BB2784E1C7379AB00D6478F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2BB2784F1C7379AB00D6478F /* Build configuration list for PBXNativeTarget "16-02-15-熔炼-(PickerView省市联动)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB278501C7379AB00D6478F /* Debug */,
+				2BB278511C7379AB00D6478F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2BB278521C7379AB00D6478F /* Build configuration list for PBXNativeTarget "16-02-15-熔炼-(PickerView省市联动)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB278531C7379AB00D6478F /* Debug */,
+				2BB278541C7379AB00D6478F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2BB2782B1C7379AB00D6478F /* _6_02_15_____PickerView_____.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2BB2782C1C7379AB00D6478F /* _6_02_15_____PickerView_____.xcdatamodel */,
+			);
+			currentVersion = 2BB2782C1C7379AB00D6478F /* _6_02_15_____PickerView_____.xcdatamodel */;
+			path = "_6_02_15_____PickerView_____.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2BB278141C7379AB00D6478F /* Project object */;
+}
