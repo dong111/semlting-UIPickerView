@@ -84,15 +84,14 @@
 }
 
 #pragma mark -UIPickerViewDelegate 实现方法
-//- (NSString *) pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component
-//{
-//    if (pickerView.tag==1) {
-//        return nil;
-//    }
-//    NSArray *array  = self.foots[component];
-//    return array[row];
-//    return @"haha";
-//}
+- (NSString *) pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component
+{
+    if (pickerView.tag==1) {
+        return nil;
+    }
+    NSArray *array  = self.foots[component];
+    return array[row];
+}
 /**
  *  选中picker行事件
  *
@@ -125,6 +124,7 @@
 {
     if (pickerView.tag==1) {
         FlagViwe *flagView = [FlagViwe flagView];
+        flagView.bounds = CGRectMake(0, 0, 200, 50);
         Flag *flag = self.flags[row];
         NSLog(@"%@--%@",flag.name,flag.icon);
         flagView.flag = flag;
