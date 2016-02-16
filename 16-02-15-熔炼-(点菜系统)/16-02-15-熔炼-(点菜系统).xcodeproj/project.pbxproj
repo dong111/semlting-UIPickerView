@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BB277E71C735C8200D6478F /* CDFlagPickerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB277E61C735C8200D6478F /* CDFlagPickerDelegate.m */; };
+		2BB277F81C7361E500D6478F /* agt.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2BB277E91C7361E500D6478F /* agt.gif */; };
+		2BB277F91C7361E500D6478F /* baxi.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2BB277EA1C7361E500D6478F /* baxi.gif */; };
+		2BB277FA1C7361E500D6478F /* deguo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2BB277EB1C7361E500D6478F /* deguo.gif */; };
+		2BB277FB1C7361E500D6478F /* faguo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2BB277EC1C7361E500D6478F /* faguo.gif */; };
+		2BB277FC1C7361E500D6478F /* flags.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2BB277ED1C7361E500D6478F /* flags.plist */; };
+		2BB277FD1C7361E500D6478F /* hanguo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2BB277EE1C7361E500D6478F /* hanguo.gif */; };
+		2BB277FE1C7361E500D6478F /* helan.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2BB277EF1C7361E500D6478F /* helan.gif */; };
+		2BB277FF1C7361E500D6478F /* putaoya.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2BB277F01C7361E500D6478F /* putaoya.gif */; };
+		2BB278001C7361E500D6478F /* ruidian.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2BB277F11C7361E500D6478F /* ruidian.gif */; };
+		2BB278011C7361E500D6478F /* ruishi.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2BB277F21C7361E500D6478F /* ruishi.gif */; };
+		2BB278021C7361E500D6478F /* wlgui.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2BB277F31C7361E500D6478F /* wlgui.gif */; };
+		2BB278031C7361E500D6478F /* xiby.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2BB277F41C7361E500D6478F /* xiby.gif */; };
+		2BB278041C7361E500D6478F /* ydl.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2BB277F51C7361E500D6478F /* ydl.gif */; };
+		2BB278051C7361E500D6478F /* ying.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2BB277F61C7361E500D6478F /* ying.gif */; };
+		2BB278061C7361E500D6478F /* zhongguo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2BB277F71C7361E500D6478F /* zhongguo.jpg */; };
+		2BB2780C1C7366B300D6478F /* FlagView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BB2780B1C7366B300D6478F /* FlagView.xib */; };
+		2BB2780F1C73675500D6478F /* FlagViwe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB2780E1C73675500D6478F /* FlagViwe.m */; };
+		2BB278121C73684F00D6478F /* Flag.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB278111C73684F00D6478F /* Flag.m */; };
 		2BB809C21C7298CA0013C697 /* foods.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2BB809C11C7298CA0013C697 /* foods.plist */; };
 		2BC68A1B1C714009001602D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC68A1A1C714009001602D1 /* main.m */; };
 		2BC68A1E1C714009001602D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC68A1D1C714009001602D1 /* AppDelegate.m */; };
@@ -37,6 +56,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2BB277E51C735C8200D6478F /* CDFlagPickerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDFlagPickerDelegate.h; sourceTree = "<group>"; };
+		2BB277E61C735C8200D6478F /* CDFlagPickerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDFlagPickerDelegate.m; sourceTree = "<group>"; };
+		2BB277E91C7361E500D6478F /* agt.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = agt.gif; sourceTree = "<group>"; };
+		2BB277EA1C7361E500D6478F /* baxi.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = baxi.gif; sourceTree = "<group>"; };
+		2BB277EB1C7361E500D6478F /* deguo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = deguo.gif; sourceTree = "<group>"; };
+		2BB277EC1C7361E500D6478F /* faguo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = faguo.gif; sourceTree = "<group>"; };
+		2BB277ED1C7361E500D6478F /* flags.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = flags.plist; sourceTree = "<group>"; };
+		2BB277EE1C7361E500D6478F /* hanguo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = hanguo.gif; sourceTree = "<group>"; };
+		2BB277EF1C7361E500D6478F /* helan.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = helan.gif; sourceTree = "<group>"; };
+		2BB277F01C7361E500D6478F /* putaoya.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = putaoya.gif; sourceTree = "<group>"; };
+		2BB277F11C7361E500D6478F /* ruidian.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ruidian.gif; sourceTree = "<group>"; };
+		2BB277F21C7361E500D6478F /* ruishi.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ruishi.gif; sourceTree = "<group>"; };
+		2BB277F31C7361E500D6478F /* wlgui.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = wlgui.gif; sourceTree = "<group>"; };
+		2BB277F41C7361E500D6478F /* xiby.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = xiby.gif; sourceTree = "<group>"; };
+		2BB277F51C7361E500D6478F /* ydl.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ydl.gif; sourceTree = "<group>"; };
+		2BB277F61C7361E500D6478F /* ying.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ying.gif; sourceTree = "<group>"; };
+		2BB277F71C7361E500D6478F /* zhongguo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zhongguo.jpg; sourceTree = "<group>"; };
+		2BB2780B1C7366B300D6478F /* FlagView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FlagView.xib; path = ../FlagView.xib; sourceTree = "<group>"; };
+		2BB2780D1C73675500D6478F /* FlagViwe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlagViwe.h; sourceTree = "<group>"; };
+		2BB2780E1C73675500D6478F /* FlagViwe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlagViwe.m; sourceTree = "<group>"; };
+		2BB278101C73684F00D6478F /* Flag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flag.h; sourceTree = "<group>"; };
+		2BB278111C73684F00D6478F /* Flag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Flag.m; sourceTree = "<group>"; };
 		2BB809C11C7298CA0013C697 /* foods.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = foods.plist; sourceTree = "<group>"; };
 		2BC68A161C714009001602D1 /* 16-02-15-熔炼-(点菜系统).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "16-02-15-熔炼-(点菜系统).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BC68A1A1C714009001602D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -82,6 +123,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BB277E81C7361E500D6478F /* guoqi */ = {
+			isa = PBXGroup;
+			children = (
+				2BB277E91C7361E500D6478F /* agt.gif */,
+				2BB277EA1C7361E500D6478F /* baxi.gif */,
+				2BB277EB1C7361E500D6478F /* deguo.gif */,
+				2BB277EC1C7361E500D6478F /* faguo.gif */,
+				2BB277ED1C7361E500D6478F /* flags.plist */,
+				2BB277EE1C7361E500D6478F /* hanguo.gif */,
+				2BB277EF1C7361E500D6478F /* helan.gif */,
+				2BB277F01C7361E500D6478F /* putaoya.gif */,
+				2BB277F11C7361E500D6478F /* ruidian.gif */,
+				2BB277F21C7361E500D6478F /* ruishi.gif */,
+				2BB277F31C7361E500D6478F /* wlgui.gif */,
+				2BB277F41C7361E500D6478F /* xiby.gif */,
+				2BB277F51C7361E500D6478F /* ydl.gif */,
+				2BB277F61C7361E500D6478F /* ying.gif */,
+				2BB277F71C7361E500D6478F /* zhongguo.jpg */,
+			);
+			path = guoqi;
+			sourceTree = "<group>";
+		};
 		2BC68A0D1C714009001602D1 = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +178,13 @@
 				2BC68A2D1C714009001602D1 /* Info.plist */,
 				2BC68A251C714009001602D1 /* _6_02_15__________.xcdatamodeld */,
 				2BC68A191C714009001602D1 /* Supporting Files */,
+				2BB277E51C735C8200D6478F /* CDFlagPickerDelegate.h */,
+				2BB277E61C735C8200D6478F /* CDFlagPickerDelegate.m */,
+				2BB2780B1C7366B300D6478F /* FlagView.xib */,
+				2BB2780D1C73675500D6478F /* FlagViwe.h */,
+				2BB2780E1C73675500D6478F /* FlagViwe.m */,
+				2BB278101C73684F00D6478F /* Flag.h */,
+				2BB278111C73684F00D6478F /* Flag.m */,
 			);
 			path = "16-02-15-熔炼-(点菜系统)";
 			sourceTree = "<group>";
@@ -122,6 +192,7 @@
 		2BC68A191C714009001602D1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2BB277E81C7361E500D6478F /* guoqi */,
 				2BB809C11C7298CA0013C697 /* foods.plist */,
 				2BC68A1A1C714009001602D1 /* main.m */,
 			);
@@ -251,8 +322,24 @@
 			files = (
 				2BB809C21C7298CA0013C697 /* foods.plist in Resources */,
 				2BC68A2C1C714009001602D1 /* LaunchScreen.storyboard in Resources */,
+				2BB2780C1C7366B300D6478F /* FlagView.xib in Resources */,
+				2BB278011C7361E500D6478F /* ruishi.gif in Resources */,
+				2BB277FF1C7361E500D6478F /* putaoya.gif in Resources */,
+				2BB278001C7361E500D6478F /* ruidian.gif in Resources */,
+				2BB277FD1C7361E500D6478F /* hanguo.gif in Resources */,
 				2BC68A291C714009001602D1 /* Assets.xcassets in Resources */,
+				2BB278051C7361E500D6478F /* ying.gif in Resources */,
+				2BB278061C7361E500D6478F /* zhongguo.jpg in Resources */,
+				2BB277FC1C7361E500D6478F /* flags.plist in Resources */,
+				2BB278031C7361E500D6478F /* xiby.gif in Resources */,
+				2BB277F81C7361E500D6478F /* agt.gif in Resources */,
+				2BB278041C7361E500D6478F /* ydl.gif in Resources */,
+				2BB277F91C7361E500D6478F /* baxi.gif in Resources */,
+				2BB278021C7361E500D6478F /* wlgui.gif in Resources */,
+				2BB277FA1C7361E500D6478F /* deguo.gif in Resources */,
 				2BC68A241C714009001602D1 /* Main.storyboard in Resources */,
+				2BB277FB1C7361E500D6478F /* faguo.gif in Resources */,
+				2BB277FE1C7361E500D6478F /* helan.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,10 +364,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BB2780F1C73675500D6478F /* FlagViwe.m in Sources */,
 				2BC68A271C714009001602D1 /* _6_02_15__________.xcdatamodeld in Sources */,
 				2BC68A211C714009001602D1 /* ViewController.m in Sources */,
 				2BC68A1E1C714009001602D1 /* AppDelegate.m in Sources */,
 				2BC68A1B1C714009001602D1 /* main.m in Sources */,
+				2BB277E71C735C8200D6478F /* CDFlagPickerDelegate.m in Sources */,
+				2BB278121C73684F00D6478F /* Flag.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
