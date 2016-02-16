@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BB809C21C7298CA0013C697 /* foods.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2BB809C11C7298CA0013C697 /* foods.plist */; };
 		2BC68A1B1C714009001602D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC68A1A1C714009001602D1 /* main.m */; };
 		2BC68A1E1C714009001602D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC68A1D1C714009001602D1 /* AppDelegate.m */; };
 		2BC68A211C714009001602D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC68A201C714009001602D1 /* ViewController.m */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2BB809C11C7298CA0013C697 /* foods.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = foods.plist; sourceTree = "<group>"; };
 		2BC68A161C714009001602D1 /* 16-02-15-熔炼-(点菜系统).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "16-02-15-熔炼-(点菜系统).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BC68A1A1C714009001602D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2BC68A1C1C714009001602D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 		2BC68A191C714009001602D1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2BB809C11C7298CA0013C697 /* foods.plist */,
 				2BC68A1A1C714009001602D1 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -246,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BB809C21C7298CA0013C697 /* foods.plist in Resources */,
 				2BC68A2C1C714009001602D1 /* LaunchScreen.storyboard in Resources */,
 				2BC68A291C714009001602D1 /* Assets.xcassets in Resources */,
 				2BC68A241C714009001602D1 /* Main.storyboard in Resources */,
@@ -502,6 +506,7 @@
 				2BC68A481C714009001602D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2BC68A491C714009001602D1 /* Build configuration list for PBXNativeTarget "16-02-15-熔炼-(点菜系统)Tests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +515,7 @@
 				2BC68A4B1C714009001602D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2BC68A4C1C714009001602D1 /* Build configuration list for PBXNativeTarget "16-02-15-熔炼-(点菜系统)UITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +524,7 @@
 				2BC68A4E1C714009001602D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
