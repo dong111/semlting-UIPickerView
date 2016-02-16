@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "CDFlagPickerDelegate.h"
+#import "Flag.h"
+#import "FlagViwe.h"
 
 @interface ViewController : UIViewController <UIPickerViewDelegate,UIPickerViewDataSource>
 
