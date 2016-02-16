@@ -14,6 +14,8 @@
 @property (weak, nonatomic) IBOutlet UILabel *fruitView;
 @property (weak, nonatomic) IBOutlet UILabel *mainFootView;
 @property (weak, nonatomic) IBOutlet UILabel *drinkView;
+@property (weak, nonatomic) IBOutlet UIPickerView *flagPickerView;
+
 
 @end
 
@@ -40,6 +42,9 @@
     self.fruitView.text = @"您还没有选";
     self.mainFootView.text = @"您还没有选";
     self.drinkView.text = @"您还没有选";
+//    CDFlagPickerDelegate *delegate = [[CDFlagPickerDelegate alloc] init];
+//    self.flagPickerView.delegate = delegate;
+//    self.flagPickerView.dataSource = delegate;
 }
 
 #pragma mark -UIPickerViewDataSource 实现方法

@@ -81,6 +81,12 @@
                                     <rect key="frame" x="93" y="416" width="200" height="21"/>
                                 </variation>
                             </label>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UYH-Cc-FVy">
+                                <rect key="frame" x="0.0" y="-216" width="320" height="216"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="-7" y="443" width="375" height="216"/>
+                                </variation>
+                            </pickerView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -92,6 +98,7 @@
                                 <exclude reference="udo-v4-mwI"/>
                                 <exclude reference="hjW-Kj-3Gp"/>
                                 <exclude reference="6Sp-oN-DZD"/>
+                                <exclude reference="UYH-Cc-FVy"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -103,12 +110,14 @@
                                 <include reference="udo-v4-mwI"/>
                                 <include reference="hjW-Kj-3Gp"/>
                                 <include reference="6Sp-oN-DZD"/>
+                                <include reference="UYH-Cc-FVy"/>
                             </mask>
                         </variation>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="drinkView" destination="6Sp-oN-DZD" id="iCJ-FS-stj"/>
+                        <outlet property="flagPickerView" destination="UYH-Cc-FVy" id="vbv-Hv-2SW"/>
                         <outlet property="fruitView" destination="udo-v4-mwI" id="2Kv-qo-Qjg"/>
                         <outlet property="mainFootView" destination="hjW-Kj-3Gp" id="m1w-ft-JtC"/>
                     </connections>

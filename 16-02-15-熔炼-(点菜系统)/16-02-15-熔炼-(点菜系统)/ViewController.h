@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CDFlagPickerDelegate.h"
 
 @interface ViewController : UIViewController <UIPickerViewDelegate,UIPickerViewDataSource>
 
