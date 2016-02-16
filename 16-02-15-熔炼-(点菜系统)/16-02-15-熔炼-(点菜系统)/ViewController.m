@@ -123,8 +123,11 @@
 - (UIView *)pickerView:(UIPickerView *)pickerView viewForRow:(NSInteger)row forComponent:(NSInteger)component reusingView:(UIView *)view
 {
     if (pickerView.tag==1) {
-        FlagViwe *flagView = [FlagViwe flagView];
-        flagView.bounds = CGRectMake(0, 0, 200, 50);
+        FlagViwe *flagView = view;
+        if (flagView==nil) {
+            flagView = [FlagViwe flagView];
+            flagView.bounds = CGRectMake(0, 0, 200, 50);
+        }
         Flag *flag = self.flags[row];
         NSLog(@"%@--%@",flag.name,flag.icon);
         flagView.flag = flag;
