@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B9845701C73E96A00DBF053 /* provinces.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B98456F1C73E96A00DBF053 /* provinces.plist */; };
+		2B9845761C73E9B600DBF053 /* CDProvince.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9845751C73E9B600DBF053 /* CDProvince.m */; };
 		2BB278211C7379AB00D6478F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB278201C7379AB00D6478F /* main.m */; };
 		2BB278241C7379AB00D6478F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB278231C7379AB00D6478F /* AppDelegate.m */; };
 		2BB278271C7379AB00D6478F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB278261C7379AB00D6478F /* ViewController.m */; };
@@ -36,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B98456F1C73E96A00DBF053 /* provinces.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = provinces.plist; sourceTree = "<group>"; };
+		2B9845741C73E9B600DBF053 /* CDProvince.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDProvince.h; sourceTree = "<group>"; };
+		2B9845751C73E9B600DBF053 /* CDProvince.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDProvince.m; sourceTree = "<group>"; };
 		2BB2781C1C7379AB00D6478F /* 16-02-15-熔炼-(PickerView省市联动).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "16-02-15-熔炼-(PickerView省市联动).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BB278201C7379AB00D6478F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2BB278221C7379AB00D6478F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -113,6 +118,8 @@
 				2BB278331C7379AB00D6478F /* Info.plist */,
 				2BB2782B1C7379AB00D6478F /* _6_02_15_____PickerView_____.xcdatamodeld */,
 				2BB2781F1C7379AB00D6478F /* Supporting Files */,
+				2B9845741C73E9B600DBF053 /* CDProvince.h */,
+				2B9845751C73E9B600DBF053 /* CDProvince.m */,
 			);
 			path = "16-02-15-熔炼-(PickerView省市联动)";
 			sourceTree = "<group>";
@@ -120,6 +127,7 @@
 		2BB2781F1C7379AB00D6478F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2B98456F1C73E96A00DBF053 /* provinces.plist */,
 				2BB278201C7379AB00D6478F /* main.m */,
 			);
 			name = "Supporting Files";
@@ -248,6 +256,7 @@
 			files = (
 				2BB278321C7379AB00D6478F /* LaunchScreen.storyboard in Resources */,
 				2BB2782F1C7379AB00D6478F /* Assets.xcassets in Resources */,
+				2B9845701C73E96A00DBF053 /* provinces.plist in Resources */,
 				2BB2782A1C7379AB00D6478F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +284,7 @@
 			files = (
 				2BB278271C7379AB00D6478F /* ViewController.m in Sources */,
 				2BB278241C7379AB00D6478F /* AppDelegate.m in Sources */,
+				2B9845761C73E9B600DBF053 /* CDProvince.m in Sources */,
 				2BB278211C7379AB00D6478F /* main.m in Sources */,
 				2BB2782D1C7379AB00D6478F /* _6_02_15_____PickerView_____.xcdatamodeld in Sources */,
 			);
@@ -502,6 +512,7 @@
 				2BB2784E1C7379AB00D6478F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2BB2784F1C7379AB00D6478F /* Build configuration list for PBXNativeTarget "16-02-15-熔炼-(PickerView省市联动)Tests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +521,7 @@
 				2BB278511C7379AB00D6478F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2BB278521C7379AB00D6478F /* Build configuration list for PBXNativeTarget "16-02-15-熔炼-(PickerView省市联动)UITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +530,7 @@
 				2BB278541C7379AB00D6478F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

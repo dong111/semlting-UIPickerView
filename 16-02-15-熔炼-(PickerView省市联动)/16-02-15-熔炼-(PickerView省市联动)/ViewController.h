@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CDProvince.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIPickerViewDelegate,UIPickerViewDataSource>
 
 
 @end
